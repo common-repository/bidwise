@@ -1,0 +1,46 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.bidwise-title {
+}
+
+.bidwise-row > th {
+  display: none;
+}
+
+.bidwise-row > td {
+  padding: 5px 0;
+}
+
+
+.bidwise-block {
+  background-color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+}
+
+
+.bidwise-block + .bidwise-block {
+  margin-top: 20px;
+}
+
+
+
+.bidwise-earnings {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+
+
+.bidwise-revenue {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 5px;
+  display: inline-block;
+}
